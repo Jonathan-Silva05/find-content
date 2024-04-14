@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Texto</title>
+  <style>
+    .highlight {
+      background-color: #FFFF00;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="searchText" placeholder="Digite sua busca aqui..." oninput="findText()">
+
+  <div class="contentText">
+    <div id="textDocument" class="textDocument" contenteditable="true">
+      <p>Este é um exemplo de texto que pode ser buscado. Experimente buscar palavras como 'exemplo' ou 'texto'.</p>
+      <p>Outra div para teste. Busque por 'Outra', 'div' ou 'teste'.</p>
+    </div>
+
+    <div class="textDocument" contenteditable="true">
+      <p>Este é um exemplo de texto que pode ser buscado. Experimente buscar palavras como 'exemplo' ou 'texto'.</p>
+      <p>Outra div para teste. Busque por 'Outra', 'div' ou 'teste'.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
